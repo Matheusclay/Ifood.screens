@@ -1,94 +1,100 @@
 body{
-    margin: 0;
-    box-sizing: border-box;
+    margin: 0; /* Remove a margem padrão de todo o corpo do documento */
+    box-sizing: border-box; /* Altera o modelo de box-sizing para incluir padding e border no cálculo da largura e altura */
 }
     
 .navbarLista{
-    display: flex;
-    margin-left: 80px;
-    margin-top: 3%;
-    font-family: 'fonteThin';
-    font-weight: bold;
+    display: flex; /* Disposição dos itens da lista em linha, utilizando o modelo flexível */
+    margin-left: 80px; /* Margem à esquerda da lista de navegação */
+    margin-top: 3%; /* Margem superior para a lista */
+    font-family: 'fonteThin'; /* Define a família da fonte personalizada 'fonteThin' */
+    font-weight: bold; /* Aplica negrito ao texto */
 }
 
 .headerNavBar{
-    background-color: #eb0033;
-    padding: 0px 10px 0px 0px;
+    background-color: #eb0033; /* Cor de fundo vermelha para a barra de navegação */
+    padding: 0px 10px 0px 0px; /* Espaçamento interno, especificamente à direita */
 }
 
 nav{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    font-size: 20px;
+    display: flex; /* Utiliza flexbox para dispor os elementos internos de <nav> */
+    justify-content: space-between; /* Distribui espaço entre os itens dentro de <nav> */
+    color: white; /* Define a cor do texto como branco */
+    font-size: 20px; /* Tamanho da fonte dos itens dentro de <nav> */
 }
 
 li{
-    list-style: none;
+    list-style: none; /* Remove os estilos de lista, como marcadores ou números */
 }
 
 .itens{
-    margin-right: 50px;
+    margin-right: 50px; /* Margem à direita para cada item da lista */
 }
 
 .logo{
-    width: 80px;
+    width: 80px; /* Define a largura do logo */
 }
 
 .divBtnIfood{
-    margin-top: 1.5%;
-    margin-right: 130px;
+    margin-top: 1.5%; /* Margem superior para a div que contém o botão do iFood */
+    margin-right: 130px; /* Margem à direita para a mesma div */
 }
 
 .btnIfood{
-    padding: 15px 15px 15px 15px;
-    color: #eb0033;
-    background-color: white;
-    font-size: 17px;
-    border: none;
-    border-radius: 5px;
-    transition: 0.5s;
+    padding: 15px; /* Espaçamento interno no botão */
+    color: #eb0033; /* Cor do texto no botão é o vermelho do iFood */
+    background-color: white; /* Cor de fundo do botão é branco */
+    font-size: 17px; /* Tamanho da fonte do texto dentro do botão */
+    border: none; /* Remove qualquer borda do botão */
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    transition: 0.5s; /* Tempo de transição para efeitos de hover é de 0.5 segundos */
 }
 
 .btnIfood:hover{
-    background-color: #f78da7;
-    cursor: pointer;
+    background-color: #f78da7; /* Cor de fundo do botão ao passar o mouse */
+    cursor: pointer; /* Muda o cursor para indicar a possibilidade de clique */
 }
 
 .primeiraDivMain{
-    margin-left: 120px;
-    margin-right: 120px;
-    display: flex;
+    margin-left: 120px; /* Margem à esquerda para a primeira divisão principal */
+    margin-right: 120px; /* Margem à direita para a mesma divisão */
+    display: flex; /* Utiliza flexbox para dispor os elementos internamente */
 }
 
 .divTitulosMain{
-    display: flex;
-    flex-direction: column;
-    padding: 0px 60px 0px 0px;
-    color: white;
-    justify-content: space-around;
+    display: flex; /* Usa flexbox para a disposição dos títulos */
+    flex-direction: column; /* Orienta os itens da flexbox em coluna */
+    padding: 0px 60px 0px 0px; /* Espaçamento interno, especificamente à direita */
+    color: white; /* Cor do texto dentro desta div */
+    justify-content: space-around; /* Distribui espaço ao redor dos itens contidos */
 }
 
 .TituloMain{
-    font-size: 55px;
-    font-family: 'fontExtraBold';
+    font-size: 55px; /* Tamanho grande para o título principal */
+    font-family: 'fontExtraBold'; /* Família da fonte personalizada 'fontExtraBold' */
 }
 
 .descricaoPrimeiroTitulo{
-    font-size: 20px;
-    font-family: 'fontRegular';
-    line-height: 30px;
+    font-size: 20px; /* Tamanho da fonte para descrição */
+    font-family: 'fontRegular'; /* Família da fonte personalizada 'fontRegular' */
+    line-height: 30px; /* Altura da linha para melhor legibilidade */
 }
 
 .btnSaibaMais{
-    padding: 20px 25px 20px 25px;
-    color: #eb0033;
-    background-color: white;
-    font-size: 17px;
-    border: none;
-    border-radius: 5px;
-    transition: 0.5s;
+    padding: 20px 25px; /* Espaçamento interno no botão 'Saiba Mais' */
+    color: #eb0033; /* Cor do texto do botão, usando o vermelho iFood */
+    background-color: white; /* Fundo branco para o botão */
+    font-size: 17px; /* Tamanho da fonte do botão */
+    border: none; /* Sem bordas para o botão */
+    border-radius: 5px; /* Bordas arredondadas para o botão */
+    transition: 0.5s; /* Transição suave para mudanças de estado */
 }
+
+.btnSaibaMais:hover{
+    background-color: #f78da7; /* Cor de fundo ao passar o mouse pelo botão */
+    cursor: pointer; /* Indica que o botão é clicável */
+}
+
 
 .btnSaibaMais:hover{
     background-color: #f78da7;
