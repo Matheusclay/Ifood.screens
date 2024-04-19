@@ -275,7 +275,7 @@ li{
     margin-left: auto;
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 991px){ /* Define as regras de estilo para telas menores que 991px */"
 
     body{
         box-sizing: border-box;
